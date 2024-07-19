@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tweet--contain {
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid #cfd9de;
+    border-radius: 16px;
+    padding: 12px;
+    width: auto;
+}
+
+.tweet--thumbnail {
+    display: block;
+    float: left;
+    margin-right: 12px;
+    margin-left: 12px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 12px;
+}
+
+.tweet--name {
+    color: #000;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.tweet--metadata {
+    color: #71767b;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.tweet--message {
+    color: #0f1419;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+
+.tweet--actionsrow {
+    display: flex;
+    max-width: 425px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tweet--icon {
+    color: #536471;
+    width: 16px;
+    height: 16px;
+
+}
+
+.tweet--action {
+    display: flex;
+    gap: 12px;
+
+}
+
+.tweet--actioncount {
+    color: #536471;
+    font-size: 13px;
+}
+
+.tweet--row1 {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 2px;
+}
+
+.tweet--col2 {
+    display: flex;
+    flex-direction: column;
+}
